@@ -43,14 +43,14 @@
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
-                    </execution><!--Инициализация агента.-->
+                    </execution>
                     <execution>
                         <id>report</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>report</goal>
                         </goals>
-                    </execution><!--Агент собирает информацию о тестовом покрытии при запуске тестов и создает отчет.-->
+                    </execution>
                     <execution>
                         <id>check</id>
                         <goals>
@@ -69,7 +69,7 @@
                                 </rule>
                             </rules>
                         </configuration>
-                    </execution><!--Агент создает отчет при обрушении сборки, по счётчику BRANCH.-->
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
